@@ -1,7 +1,8 @@
 from pyqrcode import QRCode
 
 # Define the URL to encode
-url = "https://rishabhjadia.github.io/pmenuitem/"
+# url = "https://rishabhjadia.github.io/pmenuitem/"
+url = "https://pragyaladda.github.io/menuitem/"
 
 # Create the QRCode object for the URL as text
 qr = QRCode(url)
