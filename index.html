@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's Delicious Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom right, #1e1e1e, #444);
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            overflow-y: auto; /* Enable vertical scrolling for body */
+            padding: 20px;
+        }
+
+        .menu-container {
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            margin: auto;
+            overflow-y: auto; /* Allow scrolling within the container */
+            max-height: 90vh; /* Limit height to prevent overflow outside viewport */
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffd700;
+            margin-bottom: 20px;
+        }
+
+        .menu-section {
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            color: #ff7f50;
+            border-bottom: 1px solid #ffd700;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+
+        li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <h1>Today's Delicious Menu</h1>
+
+        <div class="menu-section">
+            <h2>Mocktails</h2>
+            <ul>
+                <li>Virgin Guavava Merry</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Starter</h2>
+            <ul>
+                <li>Bowl Papad Chat</li>
+                <li>Bread Pizza</li>
+                <li>Chana Roast</li>
+                <li>Cauliflower Manchurian</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Sides</h2>
+            <ul>
+                <li>Achari Onion</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Main Course</h2>
+            <ul>
+                <li>Paneer Lababdar</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Breads</h2>
+            <ul>
+                <li>Garlic Naan</li>
+                <li>Butter Roti</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>Dessert</h2>
+            <ul>
+                <li>Chocolate Bread Pudding with Sauce</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
